@@ -7,34 +7,34 @@ export const Navbar = () => {
     <nav className="navbar navbar-light bg-secondary">
       <div className="container">
         <Link to="/">
-          <span className="navbar-brand mb-0 h1">
+          <button className="btn navbar-brand mb-0 h1  navItem purple">
             <FontAwesomeIcon icon={faHouse} id="homeIcon" />
             Inicio
-          </span>
+          </button>
         </Link>
         <div className="ml-auto">
           <Link to="/demo">
-            <button className="btn btn-light">Nosotros</button>
+            <button className="btn navItem purple">Nosotros</button>
           </Link>
         </div>
         <div className="ml-auto">
           <Link to="/demo">
-            <button className="btn btn-light">Servicios</button>
+            <button className="btn navItem purple">Servicios</button>
           </Link>
         </div>
         <div className="ml-auto">
           <Link to="/demo">
-            <button className="btn btn-light">Metodología</button>
+            <button className="btn navItem white">Metodología</button>
           </Link>
         </div>
         <div className="ml-auto">
           <Link to="/demo">
-            <button className="btn btn-light">Proceso de inscripción</button>
+            <button className="btn navItem teal">Proceso de inscripción</button>
           </Link>
         </div>
         <div className="ml-auto">
           <Link to="/demo">
-            <button className="btn btn-info">Contacto</button>
+            <button className="btn navItem teal">Contacto</button>
           </Link>
         </div>
       </div>

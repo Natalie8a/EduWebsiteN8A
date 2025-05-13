@@ -25,3 +25,22 @@ body {
   color: #d5d5d5;
   padding-right: 10px;
 }
+
+.navItem {
+  color: #d5d5d5;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.purple {
+  background-color: #86469c;
+}
+
+.white {
+  background-color: #ffffff;
+  color: black;
+}
+
+.teal {
+  background-color: #1997a2;
+}
