@@ -15,7 +15,7 @@ const Flowchart = () => {
   return (
     <div>
       <h1>Mermaid Diagram Example</h1>
-      <mermaid chart={chartDefinition} id="my-diagram" />
+      <mermaid chart={chartDefinition} id="fc-diagram" />
     </div>
   );
 };

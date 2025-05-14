@@ -132,8 +132,7 @@ ul {
 .referencias {
   margin: 20px;
 }
-.valores {
-}
+
 .alianzas {
   padding-bottom: 100px;
   margin-bottom: 200px;
@@ -157,9 +156,32 @@ h2 {
 }
 /*SignUp*/
 
-#fc-diagram {
+.withfc {
+  display: flex;
+  position: relative;
+  width: 100%;
+  text-align: justify;
 }
 
+.abc {
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-self: center;
+}
+.flowChart {
+  width: 600px;
+  margin-right: 3%;
+  margin-left: 3%;
+  height: 4000px;
+}
+.logo {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
 /*Footer*/
 .credits {
   opacity: 0.8;
