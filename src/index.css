@@ -197,12 +197,76 @@ p {
   padding-right: 20px;
 }
 
+/*Methodology*/
+li {
+  font-size: 30px;
+}
+
 /*Blog*/
 
 .date {
   color: #6c757d;
 }
 
+.blogb {
+  background: linear-gradient(
+      145deg,
+      #1997a2 10%,
+      #8e3ea0 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #8e3ea0 81% 89.5%,
+      #e1c2e8 90%
+    ),
+    linear-gradient(
+        145deg,
+        #1997a2 10%,
+        #8e3ea0 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #8e3ea0 81% 89.5%,
+        #e1c2e8 90%
+      )
+      calc(28px) 56px,
+    linear-gradient(
+      35deg,
+      #1997a2 10%,
+      #8e3ea0 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #8e3ea0 81% 89.5%,
+      #e1c2e8 90%
+    ),
+    linear-gradient(
+        35deg,
+        #1997a2 10%,
+        #8e3ea0 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #8e3ea0 81% 89.5%,
+        #e1c2e8 90%
+      )
+      calc(28px) 56px,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #1997a2 0)
+      calc(28px / 4) 0,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #e1c2e8 0) calc(28px) 0,
+    linear-gradient(90deg, #e1c2e8 38%, #1997a2 0 50%, #e1c2e8 0 62%, #1997a2 0);
+  background-size: 56px calc(2 * 56px / 3);
+}
+
+.topB {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.bottomB {
+  height: 30px;
+  margin-bottom: 100px;
+}
+
+.topE {
+  height: 30px;
+}
+
+.bottomE {
+  height: 10px;
+}
 /*SignUp*/
 
 .withfc {
@@ -245,6 +309,7 @@ p {
 .credits {
   opacity: 0.8;
   font-size: x-small;
+  text-align: center;
 }
 
 .footer {
@@ -253,6 +318,10 @@ p {
   bottom: 0;
   width: 100%;
   background-color: #6c757d;
-  color: #d5d5d5;
+  color: #58636d;
   text-align: center;
+}
+
+a {
+  color: #86469c;
 }

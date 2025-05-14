@@ -9,9 +9,13 @@ import { BlogE3 } from "../components/BlogE3";
 export const Blog = () => {
   return (
     <>
-      <BlogE1 />
-      <BlogE2 />
-      <BlogE3 />
+      <div className="container-fluid blogb">
+        <div className="topB"></div>
+        <BlogE1 />
+        <BlogE2 />
+        <BlogE3 />
+        <div className="bottomB"></div>
+      </div>
     </>
   );
 };

@@ -1,5 +1,6 @@
 export const BlogE1 = () => (
   <div className="container-fluid bg-light">
+    <div className="topE"></div>
     <h5 className="date">14 julio, 2020 por lacabañadelsaber</h5>
     <h1>¿Porque educar en casa?</h1>
     <h2>
@@ -35,5 +36,6 @@ export const BlogE1 = () => (
         SI QUIERES SABER MAS, ¡CONTACTANOS Y TE ACOMPAÑAREMOS EN EL PROCESO!
       </strong>
     </p>
+    <div className="bottomE"></div>
   </div>
 );

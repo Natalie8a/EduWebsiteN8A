@@ -39,7 +39,7 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="ml-auto">
-          <Link to="/contact">
+          <Link to="/methodology">
             <button className="btn navItem white">
               {" "}
               <FontAwesomeIcon icon={faBookOpenReader} id="methodology" />{" "}
