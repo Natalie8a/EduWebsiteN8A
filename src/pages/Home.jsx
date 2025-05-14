@@ -1,6 +1,7 @@
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { WhatsApp } from "../components/WhatsApp.jsx";
 
 export const Home = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -23,7 +24,9 @@ export const Home = () => {
               ¡ESCOGE TU PROYECTO Y EMPIEZA A APRENDER!{" "}
               <FontAwesomeIcon icon={faBook} id="bookStyle2" />
             </h3>
-            <h6>Conócenos mejor</h6>
+            <h6>
+              Conócenos mejor <WhatsApp />
+            </h6>
             <h3>Nuestras propuesta de aprendizaje</h3>
             <h3>TEMÁTICAS DE PROYECTOS A TU GUSTO</h3>
             <h3>ASESORÍA DE EDUCACIÓN SIN ESCUELA A PADRES</h3>
