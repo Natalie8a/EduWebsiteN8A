@@ -21,10 +21,10 @@ export const Navbar = () => {
           </button>
         </Link>
         <div className="ml-auto">
-          <Link to="/contact">
+          <Link to="/about">
             <button className="btn navItem purple">
               {" "}
-              <FontAwesomeIcon icon={faLaughBeam} id="aboutUs" /> <br />
+              <FontAwesomeIcon icon={faLaughBeam} id="about-us" /> <br />
               Nosotros
             </button>
           </Link>
@@ -52,7 +52,7 @@ export const Navbar = () => {
           <Link to="/contact">
             <button className="btn navItem white">
               {" "}
-              <FontAwesomeIcon icon={faFeatherPointed} id="About us" /> <br />
+              <FontAwesomeIcon icon={faFeatherPointed} id="Blog" /> <br />
               Blog
             </button>
           </Link>
@@ -61,7 +61,7 @@ export const Navbar = () => {
           <Link to="/signUp">
             <button className="btn navItem teal">
               {" "}
-              <FontAwesomeIcon icon={faUserPlus} id="About us" /> <br />
+              <FontAwesomeIcon icon={faUserPlus} id="Sign-up" /> <br />
               Proceso de inscripción
             </button>
           </Link>
@@ -70,7 +70,7 @@ export const Navbar = () => {
           <Link to="/contact">
             <button className="btn navItem teal">
               {" "}
-              <FontAwesomeIcon icon={faAddressCard} id="About us" /> <br />
+              <FontAwesomeIcon icon={faAddressCard} id="Contact-us" /> <br />
               Contacto
             </button>
           </Link>

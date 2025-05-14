@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router-dom"; // Import RouterProvider to u
 import { router } from "./routes"; // Import the router configuration
 import { StoreProvider } from "./hooks/useGlobalReducer"; // Import the StoreProvider for global state management
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import mermaid from "mermaid";
 
 const Main = () => {
   return (
