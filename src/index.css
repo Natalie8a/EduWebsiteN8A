@@ -90,10 +90,21 @@ body {
   position: relative;
   top: 80%;
   transform: translate(0%, -200%);
-  margin-bottom: -250px;
+  margin-bottom: -400px;
 }
 
 .motivos {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  font-size: xx-large;
+}
+img {
+  max-height: 700px;
+}
+.centerMotivos {
+  padding-top: 60px;
+  padding-left: 20px;
 }
 ul {
   list-style-type: url("src/assets/img/favicon.ico");

@@ -32,20 +32,23 @@ export const Home = () => {
           </div>
         </div>
         <div className="motivos">
-          <h1>Motivos por los que te gustaremos</h1>
-          <p>
-            Nunca ha habido un mejor momento para compartir la educación de tus
-            hijos. La Cabaña del Saber significa el lugar del aprendizaje. Se
-            avecina un momento fantástico para estar mas cerca a tu hijo y estar
-            presente en sus momentos de aprendizaje.
-          </p>
-          <ul>
-            <li>Flexible</li>
-            <li>Personalizado</li>
-            <li>Con temáticas a tu gusto</li>
-            <li>Con espacio para socializar</li>
-            <li>Todo se basa en la curiosidad</li>
-          </ul>
+          <img src="src/assets/img/niñosEnCaja.png" alt="niñosencaja" />
+          <div className="centerMotivos">
+            <h1>Motivos por los que te gustaremos</h1>
+            <p>
+              Nunca ha habido un mejor momento para compartir la educación de
+              tus hijos. La Cabaña del Saber significa el lugar del aprendizaje.
+              Se avecina un momento fantástico para estar mas cerca a tu hijo y
+              estar presente en sus momentos de aprendizaje.
+            </p>
+            <ul>
+              <li>Flexible</li>
+              <li>Personalizado</li>
+              <li>Con temáticas a tu gusto</li>
+              <li>Con espacio para socializar</li>
+              <li>Todo se basa en la curiosidad</li>
+            </ul>
+          </div>
         </div>
         <div className="referencias">
           <h1>EXPERIENCIAS – ¿QUE DICEN LAS FAMILIAS?</h1>
