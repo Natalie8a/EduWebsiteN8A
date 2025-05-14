@@ -29,6 +29,11 @@ export const Navbar = () => {
         </div>
         <div className="ml-auto">
           <Link to="/demo">
+            <button className="btn navItem white">Blog</button>
+          </Link>
+        </div>
+        <div className="ml-auto">
+          <Link to="/demo">
             <button className="btn navItem teal">Proceso de inscripción</button>
           </Link>
         </div>

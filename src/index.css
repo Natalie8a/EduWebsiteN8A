@@ -1,26 +1,50 @@
 body {
-  background-color: #d5d5d5;
+  /*background-color: #d5d5d5;
+  background: linear-gradient(
+      145deg,
+      #1997a2 10%,
+      #8e3ea0 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #8e3ea0 81% 89.5%,
+      #e1c2e8 90%
+    ),
+    linear-gradient(
+        145deg,
+        #1997a2 10%,
+        #8e3ea0 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #8e3ea0 81% 89.5%,
+        #e1c2e8 90%
+      )
+      calc(28px) 56px,
+    linear-gradient(
+      35deg,
+      #1997a2 10%,
+      #8e3ea0 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #8e3ea0 81% 89.5%,
+      #e1c2e8 90%
+    ),
+    linear-gradient(
+        35deg,
+        #1997a2 10%,
+        #8e3ea0 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #8e3ea0 81% 89.5%,
+        #e1c2e8 90%
+      )
+      calc(28px) 56px,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #1997a2 0)
+      calc(28px / 4) 0,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #e1c2e8 0) calc(28px) 0,
+    linear-gradient(90deg, #e1c2e8 38%, #1997a2 0 50%, #e1c2e8 0 62%, #1997a2 0);
+  background-size: 56px calc(2 * 56px / 3);*/
+  background-color: #000000;
+  background-image: url("/Users/natalieochoa/Desktop/la cabaña del saber/EduWebsiteN8A/src/assets/img/logowithoutwords.png");
+  background-repeat: cover;
 }
 
-.credits {
-  opacity: 0.8;
-  font-size: x-small;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #6c757d;
-  color: #d5d5d5;
-  text-align: center;
-}
-
-#bookStyle {
-  color: red;
-}
-
+/*Navbar*/
 #homeIcon {
   color: #d5d5d5;
   padding-right: 10px;
@@ -43,4 +67,77 @@ body {
 
 .teal {
   background-color: #1997a2;
+}
+.navbar {
+  background-color: #d5d5d5;
+}
+
+/*Home*/
+.mainHome {
+  background-color: #e3ddd8;
+}
+
+#blurred-edge {
+  background-image: url(https://cdn.pixabay.com/photo/2021/09/12/12/37/boy-6618292_1280.jpg);
+  /* you need to match the shadow color to your background or image border for the desired effect another photo https://cdn.pixabay.com/photo/2020/09/10/14/43/kids-5560586_1280.jpg*/
+  box-shadow: 0 0 8px 8px #d5d5d5 inset;
+}
+.getToKnowUs {
+  color: #d5d5d5;
+  text-shadow: 1px 1px 2px rgb(66, 11, 107);
+}
+.centeredText {
+  position: relative;
+  top: 80%;
+  transform: translate(0%, -200%);
+  margin-bottom: -250px;
+}
+
+.motivos {
+}
+ul {
+  list-style-type: url("src/assets/img/favicon.ico");
+  list-style-position: inside;
+}
+
+.referencias {
+}
+.valores {
+}
+.alianzas {
+  padding-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+h1 {
+  color: #86469c;
+}
+h2 {
+  color: #1997a2;
+}
+#bookStyle1 {
+  color: #8e3ea0;
+}
+#bookStyle2 {
+  color: #1997a2;
+}
+
+#cabinBg {
+  width: 100%;
+}
+
+/*Footer*/
+.credits {
+  opacity: 0.8;
+  font-size: x-small;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6c757d;
+  color: #d5d5d5;
+  text-align: center;
 }
