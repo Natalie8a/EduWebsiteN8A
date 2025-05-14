@@ -128,6 +128,9 @@ ul {
   margin: 20px;
 }
 
+.centered-h {
+  text-align: center;
+}
 .alianzas {
   padding-bottom: 100px;
   margin-bottom: 200px;
@@ -149,6 +152,50 @@ h2 {
 #cabinBg {
   width: 100%;
 }
+
+/*About*/
+
+.image {
+  margin: 30px;
+}
+
+.first {
+  display: flex;
+  position: relative;
+  margin: 30px;
+}
+
+.her-photo {
+  display: flex;
+  position: relative;
+  margin-right: 40px;
+  margin-top: 130px;
+  box-shadow: inset red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: justify;
+}
+
+h1 {
+  margin: 30px;
+}
+h2 {
+  margin: 30px;
+  text-align: justify;
+}
+
+p {
+  margin: 40px;
+  text-align: justify;
+}
+
+.grid1 {
+  padding-right: 20px;
+}
+
 /*SignUp*/
 
 .withfc {

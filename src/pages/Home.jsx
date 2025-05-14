@@ -98,7 +98,9 @@ export const Home = () => {
         </div>
         <div className="valores">
           <h1>Valores</h1>
-          <h2>Autonomía Colaboración Libertad educativa Creatividad</h2>
+          <h2 className="centered-h">
+            Autonomía Colaboración Libertad educativa Creatividad
+          </h2>
           <img src="src/assets/img/Autonomía.png" alt="autonomía" />
           <img src="src/assets/img/Colaboración.png" alt="colaboración" />
           <img src="src/assets/img/Libertad Educativa.png" alt="libertad" />
