@@ -1,51 +1,32 @@
 // Import necessary components from react-router-dom and other parts of the application.
 import { Link } from "react-router-dom";
 import useGlobalReducer from "../hooks/useGlobalReducer"; // Custom hook for accessing the global state.
+import { useForm } from "react-hook-form";
 
 export const Contact = () => {
   // Access the global state and dispatch function using the useGlobalReducer hook.
   const { store, dispatch } = useGlobalReducer();
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
 
+  const onSubmit = (data) => console.log(data);
+
+  console.log(watch("example")); // watch input value by passing the name of it
   return (
-    <div className="container">
-      <ul className="list-group">
-        {/* Map over the 'todos' array from the store and render each item as a list element */}
-        {store &&
-          store.todos?.map((item) => {
-            return (
-              <li
-                key={item.id} // React key for list items.
-                className="list-group-item d-flex justify-content-between"
-                style={{ background: item.background }}
-              >
-                {/* Link to the detail page of this todo. */}
-                <Link to={"/single/" + item.id}>Link to: {item.title} </Link>
+    <form onSubmit={handleSubmit(onSubmit)}>
+      {/* register your input into the hook by invoking the "register" function */}
+      <input defaultValue="test" {...register("example")} />
 
-                <p>
-                  Open file ./store.js to see the global store that contains and
-                  updates the list of colors
-                </p>
+      {/* include validation with required or other standard HTML validation rules */}
+      <input {...register("exampleRequired", { required: true })} />
+      {/* errors will return when field validation fails  */}
+      {errors.exampleRequired && <span>This field is required</span>}
 
-                <button
-                  className="btn btn-success"
-                  onClick={() =>
-                    dispatch({
-                      type: "add_task",
-                      payload: { id: item.id, color: "#ffa500" },
-                    })
-                  }
-                >
-                  Change Color
-                </button>
-              </li>
-            );
-          })}
-      </ul>
-      <br />
-
-      <Link to="/">
-        <button className="btn btn-primary">Back home</button>
-      </Link>
-    </div>
+      <input type="submit" />
+    </form>
   );
 };
