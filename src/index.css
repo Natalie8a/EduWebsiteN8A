@@ -42,6 +42,7 @@ body {
   background-color: #000000;
   background-image: url("/Users/natalieochoa/Desktop/la cabaña del saber/EduWebsiteN8A/src/assets/img/logowithoutwords.png");
   background-repeat: cover;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Navbar*/
@@ -64,7 +65,6 @@ body {
   background-color: #ffffff;
   color: black;
 }
-
 .teal {
   background-color: #1997a2;
 }
@@ -73,6 +73,24 @@ body {
 }
 
 /*Home*/
+
+p {
+  font-size: 25px;
+}
+
+.tb {
+  background-color: #1997a2;
+  padding: 20px;
+  border-width: 10px;
+  border-color: #86469c;
+  border-radius: 10%;
+}
+.pb {
+  background-color: #86469c;
+  padding: 20px;
+  border-radius: 10%;
+}
+
 .mainHome {
   background-color: #e3ddd8;
 }
@@ -112,6 +130,7 @@ ul {
 }
 
 .referencias {
+  margin: 20px;
 }
 .valores {
 }

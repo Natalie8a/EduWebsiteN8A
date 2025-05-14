@@ -51,39 +51,32 @@ export const Home = () => {
           </div>
         </div>
         <div className="referencias">
-          <h1>EXPERIENCIAS – ¿QUE DICEN LAS FAMILIAS?</h1>
-          <p>
+          <h1>EXPERIENCIAS – ¿QUÉ DICEN LAS FAMILIAS?</h1>
+          <p className="tb">
             Gracias por crear la cabaña de saber!!! Jero se divierte y aprende
-            un montón!!!!
+            un montón!!!! <br /> Un abrazo a sus profesoras de arte, ciencias y
+            cine… Las estimamos mucho y que sigan con esa gran energía !!! Mi
+            hijo Jero disfruta, aprende, interactúa con alegría, responsabilidad
+            e interés de sus talleres. Nosotros como padres lo apoyamos y
+            acompañamos. Los tutores 👍 – Carolina Hurtado
           </p>
-          <p>
-            Un abrazo a sus profesoras de arte, ciencias y cine… Las estimamos
-            mucho y que sigan con esa gran energía !!! Mi hijo Jero disfruta,
-            aprende, interactúa con alegría, responsabilidad e interés de sus
-            talleres. Nosotros como padres lo apoyamos y acompañamos. Los
-            tutores 👍 – Carolina Hurtado
-          </p>
-          <br />
-          <p>
+          <p className="pb">
             Hola Natalia, ¿cómo estás? Te escribo porque quisiera, por un lado
             felicitarte por el proyecto educativo que tienes, el balance de esta
             semana es muy positivo para nosotros y agradecerte por el
             acompañamiento.
-          </p>
-          <p>
+            <br />
             Nos gustaron mucho los clubes. Especialmente el club de matemáticas
             y el club de Frances. – Irene Tobon
           </p>
-          <br />
-          <p>
+          <p className="tb">
             Hola, buen día, ¿como estás? Quería contarte que con solo 2 clases
             lo veo contento y animado, de su colegio anterior lo tuve que
             retirar porque al iniciar la clases lloraba mucho y no le gustaba,
             quería saber si para diciembre manejan también el programa – Danna
             Castañeda
           </p>
-          <br />
-          <p>
+          <p className="pb">
             Me pareció espectacular, ya había escuchado acerca de filosofía para
             niños y me parece muy valioso que ustedes tengan está propuesta. Mi
             niño se distrajo un poco, le cuesta estar mucho tiempo mirando a la
@@ -91,15 +84,13 @@ export const Home = () => {
             atención el títere sin un ojo, jajaja. Muy bella la clase. – Nidia
             Gonzales
           </p>
-          <br />
-          <p>
+          <p className="tb">
             Hola, muchas gracias por todo, la verdad que bonita experiencia con
             ambos profes Samuel ha estado muy emocionado gracias, quedo muy
             contento, la verdad hace un año estamos buscando un programa así,
             gracias. Diana Martinez
           </p>
-          <br />
-          <p>
+          <p className="pb">
             Buenas noches, mis hijos y nosotros estamos muy contentos de
             pertenecer a La cabaña del saber. Mis hijas cada día hablan mejor
             inglés gracias a las clases que han recibido. 💖✨ Diana Moreno.
@@ -108,6 +99,10 @@ export const Home = () => {
         <div className="valores">
           <h1>Valores</h1>
           <h2>Autonomía Colaboración Libertad educativa Creatividad</h2>
+          <img src="src/assets/img/Autonomía.png" alt="autonomía" />
+          <img src="src/assets/img/Colaboración.png" alt="colaboración" />
+          <img src="src/assets/img/Libertad Educativa.png" alt="libertad" />
+          <img src="src/assets/img/Creatividad.png" alt="creatividad" />
         </div>
         <div className="alianzas">
           <h1>Alianzas</h1>
