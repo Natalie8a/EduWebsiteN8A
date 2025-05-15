@@ -46,6 +46,13 @@ body {
 }
 
 /*Navbar*/
+.navbar {
+  overflow: hidden;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  margin-bottom: 10px;
+}
 #homeIcon {
   color: #d5d5d5;
   padding-right: 10px;
@@ -130,6 +137,19 @@ ul {
 
 .centered-h {
   text-align: center;
+}
+.valores {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 15px;
+  text-shadow: 1px 1px 2px #0b383c;
+}
+.valores > div {
+  border: 5px dotted #86469c;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 10px 5px 5px #87469c61;
 }
 .alianzas {
   padding-bottom: 100px;

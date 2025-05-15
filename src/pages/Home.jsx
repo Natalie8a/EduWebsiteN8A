@@ -2,6 +2,7 @@ import { faBook } from "@fortawesome/free-solid-svg-icons";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { WhatsApp } from "../components/WhatsApp.jsx";
+import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
 
 export const Home = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -24,9 +25,15 @@ export const Home = () => {
               ¡ESCOGE TU PROYECTO Y EMPIEZA A APRENDER!{" "}
               <FontAwesomeIcon icon={faBook} id="bookStyle2" />
             </h3>
-            <h6>
-              Conócenos mejor <WhatsApp />
-            </h6>
+            <h4>
+              Conócenos mejor{" "}
+              <a href="src/components/WhatsApp.jsx">
+                <FontAwesomeIcon
+                  icon={faWhatsappSquare}
+                  className="greenIcon"
+                />
+              </a>
+            </h4>
             <h3>Nuestras propuesta de aprendizaje</h3>
             <h3>TEMÁTICAS DE PROYECTOS A TU GUSTO</h3>
             <h3>ASESORÍA DE EDUCACIÓN SIN ESCUELA A PADRES</h3>
@@ -99,15 +106,42 @@ export const Home = () => {
             inglés gracias a las clases que han recibido. 💖✨ Diana Moreno.
           </p>
         </div>
-        <div className="valores">
+        <div>
           <h1>Valores</h1>
-          <h2 className="centered-h">
-            Autonomía Colaboración Libertad educativa Creatividad
-          </h2>
-          <img src="src/assets/img/Autonomía.png" alt="autonomía" />
-          <img src="src/assets/img/Colaboración.png" alt="colaboración" />
-          <img src="src/assets/img/Libertad Educativa.png" alt="libertad" />
-          <img src="src/assets/img/Creatividad.png" alt="creatividad" />
+          <div className="valores">
+            <div>
+              <h2>
+                <strong>Autonomía</strong>
+              </h2>
+            </div>
+            <div>
+              <h2>
+                <strong>Colaboración</strong>
+              </h2>
+            </div>
+            <div>
+              <h2>
+                <strong>Libertad educativa</strong>
+              </h2>
+            </div>
+            <div>
+              <h2>
+                <strong>Creatividad</strong>
+              </h2>
+            </div>
+            <div>
+              <img src="src/assets/img/Autonomía.png" alt="autonomía" />
+            </div>
+            <div>
+              <img src="src/assets/img/Colaboración.png" alt="colaboración" />
+            </div>
+            <div>
+              <img src="src/assets/img/Libertad Educativa.png" alt="libertad" />
+            </div>
+            <div>
+              <img src="src/assets/img/Creatividad.png" alt="creatividad" />
+            </div>
+          </div>
         </div>
         <div className="alianzas">
           <h1>Alianzas</h1>
