@@ -7,146 +7,266 @@ import useGlobalReducer from "../hooks/useGlobalReducer"; // Import a custom hoo
 export const Services = () => {
   return (
     <>
-      <div className="container-fluid bg-light wContainer">
-        <div className="flex-container first">
-          <div className="her-photo">
-            <img
-              src="src/assets/img/photo nosotros.jpeg"
-              alt="photo"
-              width={300}
-              height={400}
-            />
-          </div>
-          <div className="text">
-            <h1 className="abc">Servicios</h1>
+      <div className="container-fluid bg-light">
+        <h1 className="centered">Servicios</h1>
+        <h1>
+          En el siguiente apartado encontraras los distintos servicios que
+          ofrece La Cabaña del saber
+        </h1>
+        <div className="purple-bg">
+          <span className="bigCategories">
+            TIPOS DE ASESORÍAS <br />
+          </span>
+          <span className="smallCategories">
+            Asesorías para padres en proceso de no escolarización (coaching para
+            padres):
+          </span>
+          <p>
+            Se trata de la asesoría para tomar la decisión de educar en casa.
+          </p>
+          <span className="smallCategories">Asesorías para padres:</span>
+          <p>
+            Se realizan asesorías a los padres en temas específicos de educación
+            y crianza.
+          </p>
+          <span className="smallCategories">
+            Asesorías para la realización de proyectos de aprendizaje en familia
+            y/o individual:{" "}
+          </span>
+          <p>
+            Es una asesoría y seguimiento que se realiza por medio de distintos
+            pasos para la realización de proyectos de aprendizaje de interés de
+            los niños, incluye asesoría para los padres.
+          </p>
+        </div>
+        <div className="teal-bg">
+          <span className="bigCategories">
+            Espacios de estimulación individual <br />
+          </span>
+          <span className="smallCategories">
+            Espacio para niños de 0 a 4 años
+          </span>
+          <p>
+            Exploración artística, exploración musical, exploración corporal,
+            juego, exploración del medio, texturas, sonidos, literatura,
+            lenguaje, hábitos. <br />
+            Se envían actividades de distintos temas y para explorar distintos
+            ámbitos sensoriales, algunas son sincrónicas y otras asincrónicas.
+          </p>
+          <span className="smallCategories">
+            Espacio EXPLORADORES (niños de 4 a 6 años)
+          </span>
+          <p>
+            Proyectos, colaborativo, autónomo, individual
             <br />
+            Duración: mensual
+          </p>
+          <span className="smallCategories">
+            Espacio INVESTIGADORES (niños de 7 a 10 años )
+          </span>
+          <p>
+            Proyectos, colaborativo, autónomo, individual
+            <br /> Duración: mensual
+          </p>
+          <span className="smallCategories">
+            Espacio ANALIZADORES (niños de 11 a 18 años)
+          </span>
+          <p>
+            Proyectos, colaborativo, autónomo, individual
+            <br /> Duración: mensual
+          </p>
+        </div>
+        <div className="purple-bg">
+          <span className="bigCategories">
+            Espacios de estimulación grupal <br />
+          </span>
+          <span className="smallCategories">Espacio de SOCIALIZACIÓN</span>
+          <p>
+            Proyectos, experiencias, juegos de los niños.
+            <br /> En este espacio los niños son los protagonistas y nos cuentan
+            cómo van sus proyectos, además realizan distintos tipos de
+            actividades para la comunidad como lo son (algunas actividades serán
+            mediadas por un tutor):
+          </p>
+          <span className="smallCategories">4 a 6 años:</span>
+          <p>
+            Filosofía para niños, exploración artística, exploración y expresión
+            corporal, exploración musical, literatura, juego, exploración del
+            medio (medio ambiente).
+          </p>
+          <span className="smallCategories">7 a 10 años: </span>
+          <p>
+            Filosofía para niños, juegos de roles, equipos de trabajo,
+            exploración artística, exploración y expresión corporal, exploración
+            musical, literatura, juego, exploración del medio (medio ambiente)
+          </p>
+          <span className="smallCategories">11 a 18 años:</span>
+          <p>
+            Juegos de roles, conversatorios, talleres vivenciales, equipos de
+            trabajo
+          </p>
+        </div>
+        <div className="teal-bg">
+          <span className="bigCategories">CLUBES </span>
+          <p>(4 a 18+ años -- grupal)</p>
+          <div className="gridContainer1">
             <div>
-              <h1>
-                La Cabaña del saber es un lugar para ser y sentir, es un lugar
-                para expresar tu ser y tus motivaciones por nuevos aprendizajes.
-              </h1>
+              <span className="smallCategories">CLUB DE INGLÉS</span>
               <p>
-                Natalia Hernandez, madre y mujer Bogotana, es la creadora de
-                este grandioso proyecto de educación dirigido a familias que
-                educan en casa y que quieren tener un proceso de
-                desescolarización. Es curiosa por naturaleza y siempre ha
-                pensado en como generar nuevos espacios de educación en donde
-                las familias se sientan cómodas y libres para expresarse a su
-                manera. Desde muy joven se intereso por diferentes temas de
-                educación y ha liderado diferentes espacios con familias, niños
-                y adultos mayores. Licenciada en Pedagogía Infantil bilingue,
-                con formación en ámbitos artísticos y arteterapia, cuidado de la
-                naturaleza, diplomado en valores humanos, con curso en
-                Programación Neurolinguistica entre otros.
+                Es un espacio en donde grupos de niños y/o jóvenes de distintas
+                edades pueden interactuar para la práctica del inglés (este
+                espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE ARTE</span>
+              <p>
+                Este es un espacio para re pensar el arte, vivir el arte y
+                realizar todas las obras que siempre imaginaste y nunca
+                decidiste hacer. (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">
+                CLUB DE LITERATURA Y LENGUAJE
+              </span>
+              <p>
+                Un espacio para soñar y compartir el lenguaje escrito, y en voz
+                alta, compartir historias y juego de palabras. (este espacio
+                esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE CIENCIAS</span>
+              <p>
+                En un espacio para explorar y aprender sobre el planeta que
+                vivimos y las relaciones que existen entre ellos, además un
+                espacio para reflexionar sobre las distintas teorías
+                científicas. (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE HISTORIA</span>
+              <p>
+                Es un espacio para conocer la historia desde distintos ángulos,
+                conocerla y analizarla, es un espacio para descubrir la historia
+                de las cosas y las personas. (este espacio esta mediado por un
+                tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE TEATRO</span>
+              <p>
+                Es el espacio en donde la imaginación se vuelve realidad
+                representando un personaje. Además, es un espacio para conocerse
+                a si mismo y conocer como la corporalidad, la voz y la
+                improvisación son clave importante de la representación. (este
+                espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE MATEMÁTICAS</span>
+              <p>
+                Este es un espacio para ver las matemáticas mas allá de solo
+                números, es un espacio para analizar para que sirven y como
+                podemos usarlas en la vida real, para que, de esa manera, sean
+                una herramienta para la vida. (este espacio esta mediado por un
+                tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE AJEDREZ</span>
+              <p>
+                Este es un espacio de juego, pero más que eso es un espacio para
+                cultivar la estrategia y el análisis critico que puede ser
+                aplicado en la vida. (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE FRANCÉS</span>
+              <p>
+                Es un espacio en donde grupos de niños y/o jóvenes de distintas
+                edades pueden interactuar para la práctica del francés y conocer
+                su cultura (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE CINE</span>
+              <p>
+                Es un espacio para conocer y compartir distintos tipos de
+                películas y también para conocer y realizar producción
+                cinematográfica. (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE FILOSOFÍA</span>
+              <p>
+                Es un espacio para conversar y reflexionar, conocer el
+                significado y el uso de la filosofía. El mundo de las preguntas
+                más cerca de ti. (este espacio esta mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">
+                CLUB DE DANZA Y MOVIMIENTO
+              </span>
+              <p>
+                Es un espacio para explorar el movimiento y todas sus
+                posibilidades en diferentes tipos de bailes. (este espacio esta
+                mediado por un tutor)
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE MÚSICA</span>
+              <p>
+                Es el espacio ideal para explorar y reconocer distintos sonidos,
+                hacer una apropiación música, realizar distintos ejercicios
+                musicales, aprender sobre historia de la música y escoger tu
+                instrumento.
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">CLUB DE GEOGRAFÍA</span>
+              <p>
+                Es un espacio para reconocer la geografía en variados contextos,
+                conocer la geografía de distintos países y aprender a
+                reconocerla dentro de diferentes dinámicas tanto políticas, como
+                económicas, culturales, entre otras.
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">
+                CLUB DE INFORMÁTICA Y PROGRAMACIÓN
+              </span>
+              <p>
+                Es un espacio para reconocer desde lo mas básico del computador,
+                hasta las distintas funcionalidades del Internet que llevan a
+                tener un mayor manejo del as mismas, después de eso el ideal es
+                entrar un poco hacia la programación y hacia demás temáticas del
+                interés de los participantes.
+              </p>
+            </div>
+            <div>
+              <span className="smallCategories">
+                CLUB DE CUBO RUBIK Y OTROS JUEGOS MENTALES
+              </span>
+              <p>
+                Es un espacio de ocio en el que los niños podrán aprender los
+                distintos mecanismos del cubo rubik mientras se divierten
+                armándolo. Adicional a eso podrán hacer otros juegos de
+                concentración, atención y memoria.
               </p>
             </div>
           </div>
         </div>
-        <h2>¿QUIÉNES SOMOS?</h2>
-        <p>
-          Somos un grupo de especialistas en distintas áreas de la educación
-          infantil. Porque entendemos que el aprendizaje es proceso tanto para
-          los padres como para niños, estamos comprometidos en asesorar el
-          desarrollo de proyectos de aprendizaje de las familias que educan en
-          casa.
-        </p>
-        <h2>¿QUÉ HACEMOS?</h2>
-        <p>
-          Facilitamos el desarrollo de proyectos de aprendizaje de familias que
-          educan en casa, es decir, el conocimiento se aborda de una manera
-          global en donde todos los contenidos están conjugados. Así mismo, es
-          un enfoque multifuncional para abordar la utilidad de los
-          conocimientos en contexto.
-          <br />Y para las familias que tienen el proyecto de educar en casa,
-          pero que aún no han dado el paso o que tienen dudas, los asesoramos
-          para evaluar y poner en marcha los métodos de educación en casa. De
-          manera complementaria acompañamos el proceso de crianza y ofrecemos
-          estrategias para facilitar el ejercicio del rol de padres.
-          <br />
-          Propiciamos encuentros y actividades de distintas temáticas para la
-          socialización y practica de diversos temas como los son el club de
-          inglés, de arte, literatura entre otros.
-        </p>
-        <h2>NUESTRO ENFOQUE</h2>
-        <p>
-          Creemos en una educación que ofrezca a los niños todas las
-          herramientas para ser ciudadanos conscientes y comprometidos consigo
-          mismo y con los demás y su entorno. <br />
-          Por esta razón, promovemos, técnicas de educación emocional,
-          autonomía, al igual que educación ambiental. <br />
-          Nos guiamos en valores como la verdad, la cooperación, la paz, la no
-          violencia, que promueven el reconocimiento del otro como igual y el
-          conocimiento interior.
-        </p>
-        <h2>MISIÓN</h2>
-        <p>
-          Buscamos asesorar, acompañar y fortalecer las practicas educativas de
-          las familias que han decidido educar en casa. Nuestro enfoque, está
-          estructurado a través de la formulación de proyectos de aprendizaje
-          los cuales potencian la autonomía y pensamiento crítico y se
-          complementan con diferentes estrategias de educación emocional,
-          valores humanos, buenos hábitos de crianza y educación ambiental.{" "}
-        </p>
-        <h2>VISIÓN</h2>
-        <p>
-          Formar una nueva generación de niños y jóvenes autónomos, creativos,
-          auténticos, y con pensamiento crítico que estén preparados para
-          afrontar las distintas situaciones de la vida, gracias al
-          reconocimiento de la familia como el primer lugar de aprendizaje.{" "}
-        </p>
-        <h2>PRINCIPIOS Y VALORES</h2>
-        <div className="grid-container">
-          <p className="grid1">
-            <strong>Autonomía:</strong> visto como la capacidad del ser humano
-            para hacer las cosas por si mismo, esto aplicado a la educación es
-            buscar la información por si mismo, para convertirla en conocimiento
-            aplicado a la realidad.
-            <br /> <br />
-            <strong>Colaboración:</strong> se define como el trabajo hecho en
-            conjunto por dos o más personas interesadas en llevar a cabo un
-            proyecto en común. <br /> <br />
-            <strong>Motivación:</strong> se puede definir como el impulso que
-            tiene una persona para realizar algo, ese impulso puede ser interno
-            o externo y pueden estar determinados por vivencias o distintas
-            situaciones que lo lleven a hacer algo. <br /> <br />{" "}
-            <strong>Interés:</strong>
-            entendida como la inclinación hacia algo o la atención y curiosidad
-            que puedes poner en algo o alguien, entonces seria esa curiosidad
-            por aprender algo. <br /> <br />
-            <strong>Inclusión:</strong> es la integración de cierto grupo de
-            personas a un grupo, la cual incluye una adaptación para poder
-            encajar a las nuevas necesidades, en educación, seria una adaptación
-            al currículo y a sus necesidades en la nueva diversidad. <br />{" "}
-            <br />
-            <strong>Igualdad:</strong> es darles a todas las personas las mismas
-            oportunidades y beneficios para realizar distintas actividades y
-            para acceder a distintos servicios.
-          </p>
-          <p className="grid2">
-            <strong>Respeto:</strong> es una consideración o valor especial que
-            se la da a una persona o a un objeto, además de ser uno de los
-            valores fundamentales que se debe tener presente a la hora de
-            interactuar con las demás personas.
-            <br /> <br />
-            <strong>Libertad:</strong> entendida desde el contexto educativo
-            como la facultad o derecho de tomar decisiones de manera responsable
-            considerando todas sus posibles consecuencias.
-            <br /> <br />
-            <strong>Diversidad:</strong> es comprender y aceptar que en el mundo
-            existen distintos tipos de personas con diferentes pensamientos,
-            culturas, religiones, posiciones políticas entre otras que deben ser
-            respetados, pero que de la misma manera no deben ser impuestos.
-            <br /> <br />
-            <strong>Creatividad:</strong> es la capacidad de generar nuevas
-            ideas y/o conceptos que habitualmente producen soluciones
-            originales, dentro de la educación la creatividad es algo esencial
-            para generar nuevos proyectos, productos, formas de pensar para así
-            volver al pensamiento mas flexible y abierto a nuevas ideas. <br />
-          </p>
-        </div>
-        <img src="src/assets/img/SVGlogo.svg" alt="logo" className="abc logo" />
-        <br /> <br /> <br /> <br />
+        <div className="lastBit"></div>
       </div>
+      <img
+        src="src/assets/img/SVGlogo.svg"
+        alt="logo"
+        className="abc logo bg-light"
+      />
+      <br /> <br /> <br /> <br /> <br /> <br />
     </>
   );
 };

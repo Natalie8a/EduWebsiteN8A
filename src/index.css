@@ -217,6 +217,47 @@ p {
   padding-right: 20px;
 }
 
+/*Services*/
+
+.centered {
+  text-align: center;
+}
+.purple-bg {
+  background-color: #795b8339;
+  margin: 30px;
+}
+.teal-bg {
+  background-color: #1997a243;
+  margin: 30px;
+}
+.bigCategories {
+  font-size: 30px;
+  font-weight: bold;
+  color: #795b83;
+  margin-left: 30px;
+}
+
+.smallCategories {
+  font-size: 25px;
+  font-weight: bold;
+  color: #567578;
+  margin-left: 30px;
+}
+
+.gridContainer1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+.gridContainer1 > div {
+  border: 5px solid #567578;
+  text-align: center;
+  padding: 10px;
+}
+.lastBit {
+  height: 15px;
+}
+
 /*Methodology*/
 li {
   font-size: 30px;
