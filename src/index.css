@@ -204,8 +204,15 @@ li {
 
 /*Blog*/
 
+.blogT {
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+}
 .date {
   color: #6c757d;
+  font-weight: bold;
+  margin-left: 50px;
 }
 
 .blogb {
@@ -252,7 +259,7 @@ li {
 
 .topB {
   margin-top: 10px;
-  height: 40px;
+  height: 30%;
 }
 
 .bottomB {
@@ -261,11 +268,12 @@ li {
 }
 
 .topE {
-  height: 30px;
+  padding-top: 30px;
 }
 
 .bottomE {
-  height: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
 }
 /*SignUp*/
 
@@ -303,6 +311,49 @@ li {
 .centerContact {
   display: block;
   padding: 5%;
+}
+
+.b-send {
+  background-color: #1997a2;
+  border: #86469c;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.clickableIcons {
+  display: flex;
+  margin-left: 50px;
+}
+.conIcon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.phone {
+  color: #58636d;
+}
+
+.blueIcon {
+  color: #0766ff;
+}
+
+.greenIcon {
+  color: #2ad347;
+}
+
+.pinkIcon {
+  color: #f822a7;
+}
+
+.messageB {
+  margin-left: 40px;
+}
+
+.parenthesis {
+  margin-top: -30px;
+  color: #58636d;
+  opacity: 80%;
+  font-size: 15px;
 }
 
 /*Footer*/

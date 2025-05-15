@@ -6,6 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { instanceOf } from "prop-types";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faSmile } from "@fortawesome/free-solid-svg-icons";
+import { WhatsApp } from "../components/WhatsApp";
+import { faSquarePhoneFlip } from "@fortawesome/free-solid-svg-icons";
+import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
+import { handlePhoneNumber } from "../components/Hover";
 
 export const Contact = () => {
   // Access the global state and dispatch function using the useGlobalReducer hook.
@@ -25,36 +32,64 @@ export const Contact = () => {
       <div className="container-fluid bg-light centerContact">
         <h1>Contáctanos</h1>
         <p>
-          Hablemos 👋. No dudes en ponerte en contacto con nosotros mediante la
-          información de contacto a continuación, o envíanos un mensaje mediante
-          el formulario.
+          Hablemos 👋. Nos encontramos en Bogotá, Colombia. No dudes en ponerte
+          en contacto con nosotros mediante redes:
         </p>
-
-        <p>
-          Bogotá, Colombia
+        <div className="clickableIcons">
+          <a href="tel:3155718733">
+            <FontAwesomeIcon
+              icon={faSquarePhone}
+              className="conIcon phone"
+              onMouseOver={handlePhoneNumber}
+            />
+          </a>
+          <a href="src/components/WhatsApp.jsx">
+            <FontAwesomeIcon
+              icon={faWhatsappSquare}
+              className="greenIcon conIcon"
+            />
+          </a>
           <br /> <br />
-          lacabanadelsaber@gmail.com
+          <a href="https://www.facebook.com/cabanadelsaber/?locale=es_LA">
+            <FontAwesomeIcon
+              icon={faSquareFacebook}
+              className="blueIcon conIcon"
+            />
+          </a>
           <br /> <br />
-          Número de contacto: 3232151790
-          <br /> <br />
-          Facebook: La Cabaña del Saber
-          <br /> <br />
-          Instagram: @lacabanadelsaber
+          <a href="https://www.instagram.com/lacabanadelsaber/">
+            {" "}
+            <FontAwesomeIcon
+              icon={faInstagramSquare}
+              className="pinkIcon conIcon"
+            />
+          </a>
+        </div>
+        <h1>... O envíanos un mensaje por el formulario:</h1>{" "}
+        <p className="parenthesis">
+          (nos llegará a lacabanadelsaber@gmail.com)
         </p>
-
-        <h1>Envíanos un mensaje</h1>
-        <form onSubmit={handleSubmit(onSubmit)}>
-          {/* register your input into the hook by invoking the "register" function */}
-          <span>Nombre completo</span>
-          <input placeHolder="inserte su nombre" {...register("example")} />
+        {/* The form doesn't work yet, gotta learn the api thing better to make it work */}
+        <form>
+          <div className="form-group messageB fs-4">
+            <label for="exampleFormControlInput1">Tu e-mail:</label>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="correo@ejemplo.com"
+            />
+          </div>
+          <div className="form-group messageB fs-4">
+            <label for="exampleFormControlTextarea1">Tu mensaje:</label>
+            <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
           <br />
-          <span>Correo electrónico</span>
-          <input placeHolder="inserte su email" {...register("example")} />
-          <br />
-          {/* include validation with required or other standard HTML validation rules */}
-          <input {...register("example")} />
-
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn btn-secondary b-send messageB">
             Enviar
           </button>
         </form>
