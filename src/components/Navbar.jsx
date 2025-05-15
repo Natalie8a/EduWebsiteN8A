@@ -30,7 +30,7 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="ml-auto">
-          <Link to="/contact">
+          <Link to="/services">
             <button className="btn navItem purple">
               {" "}
               <FontAwesomeIcon icon={faBellConcierge} id="services" /> <br />

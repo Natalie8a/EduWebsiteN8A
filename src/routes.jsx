@@ -12,6 +12,7 @@ import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Blog } from "./pages/Blog";
 import { Methodology } from "./pages/Methodology";
+import { Services } from "./pages/Services";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +32,7 @@ export const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/methodology" element={<Methodology />} />
+      <Route path="/services" element={<Services />} />
     </Route>
   )
 );
