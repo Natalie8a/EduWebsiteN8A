@@ -1,22 +1,19 @@
 import { Outlet } from "react-router-dom/dist";
-import ScrollToTop from "../components/ScrollToTop";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-
+import ScrollToTop from "../components/ScrollToTop";
+import ScrollRestoration from "../components/ScrollRestoration";
 // Base component that maintains the navbar and footer throughout the page and the scroll to top functionality.
 export const Layout = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location.pathname]);
   return (
-    <ScrollToTop>
-      <Navbar />
-      <Outlet />
-      <Footer />
-    </ScrollToTop>
+    <>
+      <ScrollToTop>
+        <Navbar />
+        <ScrollRestoration>
+          <Outlet />
+        </ScrollRestoration>
+        <Footer />
+      </ScrollToTop>
+    </>
   );
 };

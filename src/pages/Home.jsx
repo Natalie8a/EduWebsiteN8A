@@ -3,6 +3,7 @@ import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { WhatsApp } from "../components/WhatsApp.jsx";
 import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
+import ninos from "../assets/img/niños.png";
 
 export const Home = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -11,7 +12,7 @@ export const Home = () => {
     <>
       <div className="container-fluid text-center mainHome">
         <img src="src/assets/img/SVGlogo.svg" alt="Logo" width="600px" />
-        <img src="src/assets/img/niños.png" alt="niños" width="50%" />
+        <img src={ninos} alt="niños" width="50%" />
         <div className="getToKnowUs">
           <img
             id="cabinBg"
