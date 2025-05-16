@@ -36,28 +36,31 @@ export const Contact = () => {
           en contacto con nosotros mediante redes:
         </p>
         <div className="clickableIcons">
-          <a href="tel:3232151790">
+          <a href="tel:3232151790" target="_blank">
             <FontAwesomeIcon
               icon={faSquarePhone}
               className="conIcon phone"
               onMouseOver={handlePhoneNumber}
             />
           </a>
-          <a href="src/components/WhatsApp.jsx">
+          <a href="src/components/WhatsApp.jsx" target="_blank">
             <FontAwesomeIcon
               icon={faWhatsappSquare}
               className="greenIcon conIcon"
             />
           </a>
           <br /> <br />
-          <a href="https://www.facebook.com/cabanadelsaber/?locale=es_LA">
+          <a
+            href="https://www.facebook.com/cabanadelsaber/?locale=es_LA"
+            target="_blank"
+          >
             <FontAwesomeIcon
               icon={faSquareFacebook}
               className="blueIcon conIcon"
             />
           </a>
           <br /> <br />
-          <a href="https://www.instagram.com/lacabanadelsaber/">
+          <a href="https://www.instagram.com/lacabanadelsaber/" target="_blank">
             {" "}
             <FontAwesomeIcon
               icon={faInstagramSquare}
