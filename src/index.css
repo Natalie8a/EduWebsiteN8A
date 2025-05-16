@@ -433,9 +433,10 @@ li {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #6c757d;
+  background-color: #212529; /*older #6c757d, newer #8a8580*/
   color: #58636d;
   text-align: center;
+  height: 70px;
 }
 
 a {
