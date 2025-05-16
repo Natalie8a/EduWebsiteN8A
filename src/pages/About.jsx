@@ -2,7 +2,8 @@
 import { Link, useParams } from "react-router-dom"; // To use link for navigation and useParams to get URL parameters
 import PropTypes from "prop-types"; // To define prop types for this component
 import useGlobalReducer from "../hooks/useGlobalReducer"; // Import a custom hook for accessing the global state
-
+import nosotros from "../assets/img/photo nosotros.jpeg";
+import logo from "../assets/img/SVGlogo.svg";
 // Define and export the Single component which displays individual item details.
 export const About = () => {
   return (
@@ -10,12 +11,7 @@ export const About = () => {
       <div className="container-fluid bg-light wContainer">
         <div className="flex-container first">
           <div className="her-photo">
-            <img
-              src="src/assets/img/photo nosotros.jpeg"
-              alt="photo"
-              width={300}
-              height={400}
-            />
+            <img src={nosotros} alt="photo" width={300} height={400} />
           </div>
           <div className="text">
             <h1 className="abc">NOSOTROS</h1>
@@ -144,7 +140,7 @@ export const About = () => {
             volver al pensamiento mas flexible y abierto a nuevas ideas. <br />
           </p>
         </div>
-        <img src="src/assets/img/SVGlogo.svg" alt="logo" className="abc logo" />
+        <img src={logo} alt="logo" className="abc logo" />
         <br /> <br /> <br /> <br />
       </div>
     </>

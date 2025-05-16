@@ -4,6 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { WhatsApp } from "../components/WhatsApp.jsx";
 import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
 import ninos from "../assets/img/niños.png";
+import ninosCaja from "../assets/img/niñosEnCaja.png";
+import autonomia from "../assets/img/Autonomía.png";
+import colaboracion from "../assets/img/Colaboración.png";
+import libedu from "../assets/img/Libertad Educativa.png";
+import creatividad from "../assets/img/Creatividad.png";
+import logo from "../assets/img/SVGlogo.svg";
 
 export const Home = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -11,7 +17,7 @@ export const Home = () => {
   return (
     <>
       <div className="container-fluid text-center mainHome">
-        <img src="src/assets/img/SVGlogo.svg" alt="Logo" width="600px" />
+        <img src={logo} alt="Logo" width="600px" />
         <img src={ninos} alt="niños" width="50%" />
         <div className="getToKnowUs">
           <img
@@ -43,7 +49,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="motivos">
-          <img src="src/assets/img/niñosEnCaja.png" alt="niñosencaja" />
+          <img src={ninosCaja} alt="niñosencaja" />
           <div className="centerMotivos">
             <h1>Motivos por los que te gustaremos</h1>
             <p>
@@ -131,16 +137,16 @@ export const Home = () => {
               </h2>
             </div>
             <div>
-              <img src="src/assets/img/Autonomía.png" alt="autonomía" />
+              <img src={autonomia} alt="autonomía" />
             </div>
             <div>
-              <img src="src/assets/img/Colaboración.png" alt="colaboración" />
+              <img src={colaboracion} alt="colaboración" />
             </div>
             <div>
-              <img src="src/assets/img/Libertad Educativa.png" alt="libertad" />
+              <img src={libedu} alt="libertad" />
             </div>
             <div>
-              <img src="src/assets/img/Creatividad.png" alt="creatividad" />
+              <img src={creatividad} alt="creatividad" />
             </div>
           </div>
         </div>

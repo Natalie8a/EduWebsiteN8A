@@ -5,7 +5,8 @@ import rigoImageUrl from "../assets/img/rigo-baby.jpg"; // Import an image asset
 import useGlobalReducer from "../hooks/useGlobalReducer"; // Import a custom hook for accessing the global state
 import { useForm } from "react-hook-form";
 import Flowchart from "../components/Flowchart";
-
+import flowchart from "../assets/img/FlowChart.png";
+import logo from "../assets/img/SVGlogo.svg";
 // Define and export the Single component which displays individual item details.
 export const SignUp = () => {
   return (
@@ -14,11 +15,7 @@ export const SignUp = () => {
         <h1 className="abc">PROCESO DE INSCRIPCIÓN</h1>
         <br />
         <div className="flex-container withfc">
-          <img
-            src="src/assets/img/FlowChart.png"
-            alt="mermaid flowchart"
-            className="flowChart"
-          />
+          <img src={flowchart} alt="mermaid flowchart" className="flowChart" />
           <p id="centerProcess">
             Para las familias que aun no han tomado la decision de educar en
             casa, quieren hacerlo y no saben como, se les realiza un taller tipo
@@ -53,13 +50,9 @@ export const SignUp = () => {
             esperamos tenerte pronto en nuestros programas. Si requieres mas
             información contáctate con nosotros para tenerte en cuenta.
           </p>
-          <img
-            src="src/assets/img/FlowChart.png"
-            alt="mermaid flowchart"
-            className="flowChart"
-          />
+          <img src={flowchart} alt="mermaid flowchart" className="flowChart" />
         </div>
-        <img src="src/assets/img/SVGlogo.svg" alt="logo" className="abc logo" />
+        <img src={logo} alt="logo" className="abc logo" />
         <br /> <br /> <br /> <br />
       </div>
     </>

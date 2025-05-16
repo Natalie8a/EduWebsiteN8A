@@ -2,7 +2,7 @@
 import { Link, useParams } from "react-router-dom"; // To use link for navigation and useParams to get URL parameters
 import PropTypes from "prop-types"; // To define prop types for this component
 import useGlobalReducer from "../hooks/useGlobalReducer"; // Import a custom hook for accessing the global state
-
+import logo from "../assets/img/SVGlogo.svg";
 // Define and export the Single component which displays individual item details.
 export const Services = () => {
   return (
@@ -261,11 +261,7 @@ export const Services = () => {
         </div>
         <div className="lastBit"></div>
       </div>
-      <img
-        src="src/assets/img/SVGlogo.svg"
-        alt="logo"
-        className="abc logo bg-light"
-      />
+      <img src={logo} alt="logo" className="abc logo bg-light" />
       <br /> <br /> <br /> <br /> <br /> <br />
     </>
   );
