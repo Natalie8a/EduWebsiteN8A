@@ -4,7 +4,7 @@ export const WhatsApp = () => (
     class="floating-whatsapp"
   >
     <img
-      src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg"
+      src="https://static.whatsapp.net/rsrc.php/yA/r/hbGnlm1gXME.svg"
       alt="WhatsApp"
     />
   </a>
