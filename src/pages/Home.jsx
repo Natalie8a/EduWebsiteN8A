@@ -34,7 +34,10 @@ export const Home = () => {
             </h3>
             <h4>
               Conócenos mejor{" "}
-              <a href={WhatsApp}>
+              <a
+                href="https://api.whatsapp.com/send?phone=573232151790"
+                target="_blank"
+              >
                 <FontAwesomeIcon
                   icon={faWhatsappSquare}
                   className="greenIcon"
