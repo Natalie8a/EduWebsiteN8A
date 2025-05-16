@@ -43,7 +43,7 @@ export const Contact = () => {
               onMouseOver={handlePhoneNumber}
             />
           </a>
-          <a href="src/components/WhatsApp.jsx" target="_blank">
+          <a href={WhatsApp}>
             <FontAwesomeIcon
               icon={faWhatsappSquare}
               className="greenIcon conIcon"

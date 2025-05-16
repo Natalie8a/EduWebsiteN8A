@@ -34,7 +34,7 @@ export const Home = () => {
             </h3>
             <h4>
               Conócenos mejor{" "}
-              <a href="src/components/WhatsApp.jsx" target="_blank">
+              <a href={WhatsApp}>
                 <FontAwesomeIcon
                   icon={faWhatsappSquare}
                   className="greenIcon"
