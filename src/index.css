@@ -255,6 +255,9 @@ p {
   text-align: center;
   padding: 10px;
 }
+.rubiks {
+  width: 30px;
+}
 .lastBit {
   height: 15px;
 }

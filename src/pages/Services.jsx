@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom"; // To use link for navigatio
 import PropTypes from "prop-types"; // To define prop types for this component
 import useGlobalReducer from "../hooks/useGlobalReducer"; // Import a custom hook for accessing the global state
 import logo from "../assets/img/SVGlogo.svg";
+import rubiks from "../assets/img/rubiks_cube.png";
 // Define and export the Single component which displays individual item details.
 export const Services = () => {
   return (
@@ -111,7 +112,7 @@ export const Services = () => {
           <p>(4 a 18+ años -- grupal)</p>
           <div className="gridContainer1">
             <div>
-              <span className="smallCategories">CLUB DE INGLÉS</span>
+              <span className="smallCategories">🇺🇸CLUB DE INGLÉS🇬🇧</span>
               <p>
                 Es un espacio en donde grupos de niños y/o jóvenes de distintas
                 edades pueden interactuar para la práctica del inglés (este
@@ -119,7 +120,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE ARTE</span>
+              <span className="smallCategories">🎨CLUB DE ARTE🖌️</span>
               <p>
                 Este es un espacio para re pensar el arte, vivir el arte y
                 realizar todas las obras que siempre imaginaste y nunca
@@ -128,7 +129,7 @@ export const Services = () => {
             </div>
             <div>
               <span className="smallCategories">
-                CLUB DE LITERATURA Y LENGUAJE
+                📖CLUB DE LITERATURA Y LENGUAJE🗣️
               </span>
               <p>
                 Un espacio para soñar y compartir el lenguaje escrito, y en voz
@@ -137,7 +138,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE CIENCIAS</span>
+              <span className="smallCategories">🧬CLUB DE CIENCIAS🧪</span>
               <p>
                 En un espacio para explorar y aprender sobre el planeta que
                 vivimos y las relaciones que existen entre ellos, además un
@@ -146,7 +147,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE HISTORIA</span>
+              <span className="smallCategories">📚CLUB DE HISTORIA⏳</span>
               <p>
                 Es un espacio para conocer la historia desde distintos ángulos,
                 conocerla y analizarla, es un espacio para descubrir la historia
@@ -155,7 +156,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE TEATRO</span>
+              <span className="smallCategories">🎭CLUB DE TEATRO🎭</span>
               <p>
                 Es el espacio en donde la imaginación se vuelve realidad
                 representando un personaje. Además, es un espacio para conocerse
@@ -165,7 +166,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE MATEMÁTICAS</span>
+              <span className="smallCategories">🧮CLUB DE MATEMÁTICAS🔢</span>
               <p>
                 Este es un espacio para ver las matemáticas mas allá de solo
                 números, es un espacio para analizar para que sirven y como
@@ -175,7 +176,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE AJEDREZ</span>
+              <span className="smallCategories">♟️CLUB DE AJEDREZ♛</span>
               <p>
                 Este es un espacio de juego, pero más que eso es un espacio para
                 cultivar la estrategia y el análisis critico que puede ser
@@ -183,7 +184,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE FRANCÉS</span>
+              <span className="smallCategories">🇫🇷CLUB DE FRANCÉS🥖</span>
               <p>
                 Es un espacio en donde grupos de niños y/o jóvenes de distintas
                 edades pueden interactuar para la práctica del francés y conocer
@@ -191,7 +192,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE CINE</span>
+              <span className="smallCategories">🎬CLUB DE CINE🎞️</span>
               <p>
                 Es un espacio para conocer y compartir distintos tipos de
                 películas y también para conocer y realizar producción
@@ -199,7 +200,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE FILOSOFÍA</span>
+              <span className="smallCategories">📚CLUB DE FILOSOFÍA🧐</span>
               <p>
                 Es un espacio para conversar y reflexionar, conocer el
                 significado y el uso de la filosofía. El mundo de las preguntas
@@ -208,7 +209,7 @@ export const Services = () => {
             </div>
             <div>
               <span className="smallCategories">
-                CLUB DE DANZA Y MOVIMIENTO
+                💃CLUB DE DANZA Y MOVIMIENTO🕺
               </span>
               <p>
                 Es un espacio para explorar el movimiento y todas sus
@@ -217,7 +218,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE MÚSICA</span>
+              <span className="smallCategories">🎼CLUB DE MÚSICA🎶</span>
               <p>
                 Es el espacio ideal para explorar y reconocer distintos sonidos,
                 hacer una apropiación música, realizar distintos ejercicios
@@ -226,7 +227,7 @@ export const Services = () => {
               </p>
             </div>
             <div>
-              <span className="smallCategories">CLUB DE GEOGRAFÍA</span>
+              <span className="smallCategories">🌎CLUB DE GEOGRAFÍA🗺️</span>
               <p>
                 Es un espacio para reconocer la geografía en variados contextos,
                 conocer la geografía de distintos países y aprender a
@@ -236,7 +237,7 @@ export const Services = () => {
             </div>
             <div>
               <span className="smallCategories">
-                CLUB DE INFORMÁTICA Y PROGRAMACIÓN
+                👩‍💻CLUB DE INFORMÁTICA Y PROGRAMACIÓN🧑‍💻
               </span>
               <p>
                 Es un espacio para reconocer desde lo mas básico del computador,
@@ -248,7 +249,8 @@ export const Services = () => {
             </div>
             <div>
               <span className="smallCategories">
-                CLUB DE CUBO RUBIK Y OTROS JUEGOS MENTALES
+                <img src={rubiks} className="rubiks" />
+                CLUB DE CUBO RUBIK Y OTROS JUEGOS MENTALES🧩
               </span>
               <p>
                 Es un espacio de ocio en el que los niños podrán aprender los
