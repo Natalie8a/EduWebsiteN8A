@@ -1,6 +1,6 @@
 export const WhatsApp = () => (
   <a
-    href="https://api.whatsapp.com/send?phone=573155718733"
+    href="https://api.whatsapp.com/send?phone=573232151790"
     class="floating-whatsapp"
   >
     <img

@@ -36,7 +36,7 @@ export const Contact = () => {
           en contacto con nosotros mediante redes:
         </p>
         <div className="clickableIcons">
-          <a href="tel:3155718733">
+          <a href="tel:3232151790">
             <FontAwesomeIcon
               icon={faSquarePhone}
               className="conIcon phone"
